@@ -4,12 +4,13 @@
 ## Kindly follow the below steps to create EKS Kubernetes Cluster on AWS Cloud
 
 # 1. Go to the below link for creating a new Cluster
+```
 https://ap-south-1.console.aws.amazon.com/eks/home?region=ap-south-1#/clusters
 ```
 # 2. Create Cluster Role as below:
 Give name as "eks-first-cluster"
 Create Service Role
- ```
+ 
  https://docs.aws.amazon.com/eks/latest/userguide/service_IAM_role.html#create-service-role
   ```
     1. Open the IAM console at https://console.aws.amazon.com/iam/.
