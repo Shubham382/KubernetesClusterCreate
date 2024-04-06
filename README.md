@@ -1,8 +1,8 @@
 # KubernetesClusterCreate
-```
-EKS Cluster Creation on AWS Cloud
-Kindly follow the below steps to create EKS Kubernetes Cluster on AWS Cloud
-```
+
+## EKS Cluster Creation on AWS Cloud
+## Kindly follow the below steps to create EKS Kubernetes Cluster on AWS Cloud
+
 # 1. Go to the below link for creating a new Cluster
 https://ap-south-1.console.aws.amazon.com/eks/home?region=ap-south-1#/clusters
 
