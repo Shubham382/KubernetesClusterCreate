@@ -7,11 +7,11 @@
 https://ap-south-1.console.aws.amazon.com/eks/home?region=ap-south-1#/clusters
 ```
 # 2. Create Cluster Role as below:
-### Give name as "eks-first-cluster"
-### Create Service Role
- 
+Give name as "eks-first-cluster"
+Create Service Role
+ ```
  https://docs.aws.amazon.com/eks/latest/userguide/service_IAM_role.html#create-service-role
-  
+  ```
     1. Open the IAM console at https://console.aws.amazon.com/iam/.
     2. Choose Roles, then Create role.
     3. Under Trusted entity type, select AWS service.
