@@ -36,6 +36,7 @@ Mention the Node Configuration
 https://us-east-1.console.aws.amazon.com/iamv2/home#/roles
 
 # To create your Amazon EKS node role in the IAM console
+
 a. Open the IAM console at https://console.aws.amazon.com/iam/.
 b. In the left navigation pane, choose Roles.
 c. On the Roles page, choose Create role.
