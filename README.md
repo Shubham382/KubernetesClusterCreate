@@ -5,7 +5,7 @@
 
 # 1. Go to the below link for creating a new Cluster
 https://ap-south-1.console.aws.amazon.com/eks/home?region=ap-south-1#/clusters
-
+```
 # 2. Create Cluster Role as below:
 ### Give name as "eks-first-cluster"
 ### Create Service Role
@@ -21,7 +21,7 @@ https://ap-south-1.console.aws.amazon.com/eks/home?region=ap-south-1#/clusters
     7. For Role name, enter a unique name for your role, such as "eksClusterRole".
     8. For Description, enter descriptive text such as "My First EKS Cluster Role".
     9. Choose Create role.
-    
+   ``` 
 # 3. Cluster Creation Process
 1. Choose default configurations under "Specify Networking" section then click Next
 2. Don't enable any logging to save cost then click Next
