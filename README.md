@@ -20,7 +20,7 @@ https://docs.aws.amazon.com/eks/latest/userguide/service_IAM_role.html#create-se
     8. For Description, enter descriptive text such as "My First EKS Cluster Role".
     9. Choose Create role.
     
-3. Cluster Creation Process
+# 3. Cluster Creation Process
 1. Choose default configurations under "Specify Networking" section then click Next
 2. Don't enable any logging to save cost then click Next
 3. Select default addons then click next
@@ -28,10 +28,10 @@ https://docs.aws.amazon.com/eks/latest/userguide/service_IAM_role.html#create-se
 4. Add node group to your cluster
 Mention the Node Configuration
 
-Create a node IAM Role
+# Create a node IAM Role
 https://us-east-1.console.aws.amazon.com/iamv2/home#/roles
 
-To create your Amazon EKS node role in the IAM console
+# To create your Amazon EKS node role in the IAM console
 a. Open the IAM console at https://console.aws.amazon.com/iam/.
 b. In the left navigation pane, choose Roles.
 c. On the Roles page, choose Create role.
@@ -45,7 +45,9 @@ j. Select the check box to the left of AmazonEKSWorkerNodePolicy in the search r
 k. Choose Clear filters.
 l. In the Filter policies box, enter AmazonEC2ContainerRegistryReadOnly.
 m. Select the check box to the left of AmazonEC2ContainerRegistryReadOnly in the search results.
-n. Either the AmazonEKS_CNI_Policy managed policy, or an IPv6 policy that you create must also be attached to either this role or to a different role that's mapped to the aws-node Kubernetes service account. We recommend assigning the policy to the role associated to the Kubernetes service account instead of assigning it to this role. For more information, see Configuring the Amazon VPC CNI plugin for Kubernetes to use IAM roles for service accounts.
+n. Either the AmazonEKS_CNI_Policy managed policy, or an IPv6 policy that you create must also be attached to either this role or to a different role that's mapped to the aws-node Kubernetes service account. We recommend assigning the policy to the role associated to the Kubernetes service account instead of assigning it to this role. For more information, see Configuring the Amazon VPC CNI plugin for Kubernetes to use 
+
+# IAM roles for service accounts.
 o. Choose Next.
 p. On the Name, review, and create page, do the following:
 q. For Role name, enter a unique name for your role, such as AmazonEKSNodeRole.
@@ -53,7 +55,7 @@ r. For Description, replace the current text with descriptive text such as Amazo
 s. Under Add tags (Optional), add metadata to the role by attaching tags as key–value pairs. For more information about using tags in IAM, see Tagging IAM Entities in the t. IAM User Guide.
 u. Choose Create role.
 
-Select the node group role that has been created in above section.
+# Select the node group role that has been created in above section.
 
 5. Connect to Cluster
 If aws cli is not installed use the below commands to install it  
