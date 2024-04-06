@@ -62,9 +62,9 @@ u. Choose Create role.
 
 # Select the node group role that has been created in above section.
 
-5. Connect to Cluster
-If aws cli is not installed use the below commands to install it  
-
+## 5. Connect to Cluster
+### If aws cli is not installed use the below commands to install it  
+```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"  
 unzip awscliv2.zip  
 sudo ./aws/install  
@@ -73,3 +73,4 @@ aws configure
 aws sts get-caller-identity  
 aws eks --region ap-south-1 update-kubeconfig --name eks-first-cluster  
 kubectl run mycurlpod --image=curlimages/curl -i --tty -- sh  
+```
